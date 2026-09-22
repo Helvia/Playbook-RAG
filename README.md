@@ -23,7 +23,7 @@ the evaluation test set and the anonymized source documents it was written from.
 | `query` | the user's message, first person |
 | `entity` | the distinction the query turns on (for `near-miss`, the ambiguous phrase); empty where none applies |
 | `value` | the value of that distinction the query names or that the documents cover, where one applies |
-| `alternatives` | for queries that expect a question, the documented alternatives a closed follow-up must name, separated by `\|` |
+| `alternatives` | for queries that expect a question, the documented alternatives a closed follow-up must name, separated by ` \| ` |
 
 ## Not included
 

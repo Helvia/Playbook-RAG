@@ -1,123 +1,123 @@
-id,case,expected,query,entity,value,alternatives
-amb:em:classify:1,ambiguous,ask,We're short-handed for the next four months and I want to bring in an outside person to help the team. What do I need to do to get someone in?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:classify:2,ambiguous,ask,"I have budget approved for extra help on the data platform this year. Before I raise anything, what should I be thinking about so we set the person up the right way?",Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:initiate:1,ambiguous,ask,Someone external is starting with us next month and I'm ready to raise the request. Which form do I fill in and what does it need to contain?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:initiate:2,ambiguous,ask,I have someone external lined up to start in three weeks. What approvals do I need in place before then?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:change:1,ambiguous,ask,My external worker's end date is coming up in three weeks and I'd like to keep them on until the end of the year. What do I need to do?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:change:2,ambiguous,ask,The scope of what my external worker is doing has grown quite a bit since we started. Do I need to change anything officially?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:pws:wagehour:1,ambiguous,ask,What meal and rest breaks do I need to build into my temp's shifts?,Physical work state,,California | Colorado | Illinois | Texas | Another state
-amb:pws:wagehour:2,ambiguous,ask,My temp is on ten-hour shifts four days a week. Does that trigger overtime?,Physical work state,,California | Colorado | Illinois | Texas | Another state
-amb:pws:wagehour:3,ambiguous,ask,"If my temp skips lunch because we're slammed, do I owe them anything extra?",Physical work state,,California | Colorado | Illinois | Texas | Another state
-amb:rk:route:1,ambiguous,ask,I need to look up one of my external workers' records. Where do I go?,Record kind,,Transaction or supplier-operation record | People identity or organization record
-amb:wlm:travel:1,ambiguous,ask,One of my external workers will be in Portugal for two weeks next month and there is work to be done while she's there. What do we need to arrange?,Work location mode,,Short international business travel | Ongoing or worker-chosen work outside the United States
-amb:wlm:travel:2,ambiguous,ask,My temp needs to be at a client site for a few days for the go-live. How do we handle the travel side?,Work location mode,,Work within the United States | Short international business travel
-amb:os:route:1,ambiguous,ask,Where can I check when my external worker's assignment is due to end?,Operational system,,Beeline | BambooHR
-amb:os:route:2,ambiguous,ask,One of my external workers isn't showing up when I search for her. Who do I contact to get that fixed?,Operational system,,Beeline | BambooHR
-amb:os:change:1,ambiguous,ask,My worker's end date is wrong. How do I get it corrected?,Operational system,,Beeline | BambooHR
-amb:os:change:2,ambiguous,ask,I've taken over a team and the manager on my external workers' records still shows my predecessor. How do I fix that?,Operational system,,Beeline | BambooHR
-amb:os:onboard:1,ambiguous,ask,My new external worker starts Monday and IT says they have nothing to work from. What's missing?,Operational system,,Beeline | BambooHR
-amb:os:end:1,ambiguous,ask,My worker finished early last week but their account is still live. What did I miss?,Operational system,,Beeline | BambooHR
-amb:em:payments:1,ambiguous,ask,"My external worker's payment for last week is waiting on me. What exactly am I approving, and by when?",Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:onboard:1,ambiguous,ask,My new external worker starts a week from Monday. What has to be sorted before then?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:screening:1,ambiguous,ask,Who is responsible for checking my new external worker's right to work?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:travel:1,ambiguous,ask,My external worker paid for a hotel on a work trip. How does she get reimbursed?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:flexible:1,ambiguous,ask,My external worker asked whether she could be at home two days a week instead of on site. Can I just agree to that?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:leave:1,ambiguous,ask,My external worker asked for two weeks off next month for a family situation. What do I do?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:wagehour:1,ambiguous,ask,My external worker put in about 50 hours last week. What do I owe for the extra ten?,Engagement model,,Contingent worker | Contractor / SOW supplier
-amb:em:end:1,ambiguous,ask,How much notice do I need to give to end my external worker's engagement early?,Engagement model,,Contingent worker | Contractor / SOW supplier
-near:contractor:1,near-miss,ask,My contractor's hours from last week look wrong. How do I get them corrected?,contractor,,an agency temp | a supplier delivering under a Statement of Work | a self-employed individual
-near:contractor:2,near-miss,ask,I want to bring back a contractor who worked with us last year. Do we need to redo any checks?,contractor,,an agency temp | a supplier delivering under a Statement of Work | a self-employed individual
-near:end-the-contract:1,near-miss,ask,I need to end the contract with one of my external workers as of the 30th. What are the steps?,end the contract,,ending an agency-managed assignment | closing a deliverable-based supplier engagement
-near:end-the-contract:2,near-miss,ask,Things aren't working out with someone on my team from outside the company and I want to end the contract early. How do I go about it?,end the contract,,ending an agency-managed assignment | closing a deliverable-based supplier engagement
-near:rate:1,near-miss,ask,The rate for my external worker seems off compared with what we discussed. Who do I raise it with?,rate,,the agency bill rate | worker pay | fixed fee | capped time and materials
-near:rate:2,near-miss,ask,Can we change the rate part-way through the engagement?,rate,,the agency bill rate | worker pay | fixed fee | capped time and materials
-near:work-from-abroad:1,near-miss,ask,My temp is going to be working from Canada for two weeks in July. Is there anything I need to set up?,work from abroad,,the worker choosing to work abroad | Helvia sending them on a short business trip
-near:work-from-abroad:2,near-miss,ask,One of my external workers asked what the rules are for working from abroad. What do I tell them?,work from abroad,,the worker choosing to work abroad | Helvia sending them on a short business trip
-near:the-system:1,near-miss,ask,I can't see my new worker in the system yet. Is something wrong?,the system,,Beeline | BambooHR
-near:the-system:2,near-miss,ask,Who do I ask to fix a wrong entry in the system for one of my workers?,the system,,Beeline | BambooHR
-spec:em:classify:cw,specific,answer,"We need two extra support agents from an agency for the holiday season, working our hours on our systems. What's the first step?",Engagement model,Contingent worker,
-spec:em:classify:sow,specific,answer,"We want a freelance designer to deliver a brand refresh by a fixed date for a fixed price. Which route is that, and what's involved?",Engagement model,Contractor / SOW supplier,
-spec:em:initiate:cw,specific,answer,I'm about to put in a request for a temp from one of our agencies to cover parental leave. What do I need to have ready?,Engagement model,Contingent worker,
-spec:em:initiate:sow,specific,answer,"I've got a contractor company lined up for the website build. What do I need to raise, and who approves it?",Engagement model,Contractor / SOW supplier,
-spec:em:change:cw,specific,answer,My agency temp's assignment ends in a month and I'd like to extend her to year end. How do I do that?,Engagement model,Contingent worker,
-spec:em:change:sow,specific,answer,My contractor needs another six weeks to finish the migration. What do I need to change on the SOW?,Engagement model,Contractor / SOW supplier,
-spec:pws:wagehour:ca,specific,answer,My temp in California is doing four ten-hour days. Does that mean overtime?,Physical work state,California,
-spec:pws:wagehour:co,specific,answer,What rest breaks does my contingent worker in Colorado need on an eight-hour shift?,Physical work state,Colorado,
-spec:pws:wagehour:il,specific,answer,My temp works from home in Illinois on eight-hour shifts. What meal break is she entitled to?,Physical work state,Illinois,
-spec:pws:wagehour:tx,specific,answer,Do I need to schedule meal breaks for my temp in Texas?,Physical work state,Texas,
-spec:rk:route:transaction,specific,answer,Where do I see the spend so far against one of my assignments?,Record kind,Transaction or supplier-operation record,
-spec:rk:route:people,specific,answer,"Where do I look up which agency one of my external workers is with, and who their hiring manager is?",Record kind,People identity or organization record,
-spec:wlm:travel:domestic,specific,answer,My temp needs to fly to our Austin site for a week to onboard the new team. How does she book and expense it?,Work location mode,Work within the United States,
-spec:wlm:flexible:abroad,specific,answer,My contractor has told me he's relocating to Mexico next month and plans to carry on the engagement from there. Is that okay?,Work location mode,Ongoing or worker-chosen work outside the United States,
-spec:wlm:travel:trip,specific,answer,We need to send our agency temp to the Toronto office for a five-day workshop. What do we need to arrange?,Work location mode,Short international business travel,
-spec:os:route:beeline,specific,answer,How do I get into Beeline? I've never used it.,Operational system,Beeline,
-spec:os:route:bamboohr,specific,answer,What information about my external workers can I see in BambooHR?,Operational system,BambooHR,
-spec:os:onboard:beeline,specific,answer,The agency hasn't confirmed my new temp's assignment in Beeline yet. What does that hold up?,Operational system,Beeline,
-spec:os:onboard:bamboohr,specific,answer,HR says my new contractor's BambooHR record is created. What happens next for accounts and equipment?,Operational system,BambooHR,
-spec:os:change:beeline,specific,answer,"I need to change the cost centre on my temp's assignment in Beeline. How, and do I need to tell anyone?",Operational system,Beeline,
-spec:os:change:bamboohr,specific,answer,My worker's BambooHR record shows the wrong end date. How do I get it fixed?,Operational system,BambooHR,
-spec:os:end:beeline,specific,answer,My temp's assignment ended yesterday. What do I need to do in Beeline?,Operational system,Beeline,
-spec:os:end:bamboohr,specific,answer,My contractor's engagement closed in Beeline last week but his account is still active. Is that a BambooHR thing?,Operational system,BambooHR,
-spec:em:payments:cw,specific,answer,"How do I approve my agency temp's timesheet, and what's the deadline?",Engagement model,Contingent worker,
-spec:em:end:sow,specific,answer,What notice do I owe a contractor if we end the engagement early?,Engagement model,Contractor / SOW supplier,
-spec:em:wagehour:sow,specific,answer,My contractor billed 50 hours last week on a capped T&M SOW. Is there overtime on top?,Engagement model,Contractor / SOW supplier,
-spec:em:leave:cw,specific,answer,My agency temp asked for a week of leave next month. What's my role?,Engagement model,Contingent worker,
-spec:verify:terms,specific,answer,What does the handbook mean by an 'engagement' as opposed to an 'assignment'?,,,
-spec:verify:audience,specific,answer,"Who is this external workforce handbook written for, and when was it last updated?",,,
-spec:review:checkin,specific,answer,What should I cover in the 30-day check-in with my temp?,,,
-spec:review:late,specific,answer,My contractor's deliverable is late and not up to standard. How do I handle that?,,,
-spec:rehire:ok,specific,answer,A former colleague who left us eight months ago wants to come back as a contractor doing different work. Anything to check first?,,,
-spec:concern:threat,specific,answer,One of my temps just told me a colleague threatened him. What do I do right now?,,,
-spec:protect:repo,specific,answer,My contractor wants to work in her own GitHub organisation and hand the code over at the end. Is that okay?,,,
-spur:abroad-track,spurious,answer,"Can my contractor log in from Italy during her holiday, given she isn't an agency worker?",Engagement model,,
-spur:ip,spurious,answer,Who owns the code my freelance developer writes for us?,Engagement model,,
-spur:card,spurious,answer,Can I give my agency temp a Helvia credit card for the conference trip?,Engagement model,,
-spur:visa,spurious,answer,Does it matter whether a candidate comes through an agency or as a contractor when it comes to visa sponsorship?,Engagement model,,
-spur:ada,spurious,answer,Is a temp from an agency covered by disability accommodation rules while she's with us?,Engagement model,,
-spur:harass,spurious,answer,"A contractor on my team says one of our employees has been making inappropriate comments. Since she isn't our employee, is this ours to deal with?",Engagement model,,
-spur:threshold,spurious,answer,Is the approval threshold different for an SOW than for a worker request?,Engagement model,,
-spur:cards,spurious,answer,Can my contractor get Helvia business cards for client meetings?,Engagement model,,
-spur:safety,spurious,answer,My contractor will be on the workshop floor from next week. Does she have to do the site safety training like everyone else?,Engagement model,,
-spur:allhands,spurious,answer,Can my agency temp sit in on the all-hands where we present quarterly results?,Engagement model,,
-spur:directory,spurious,answer,Should my contractor show up as external in our directory and chat tools?,Engagement model,,
-spur:short-break,spurious,answer,My temp in Texas takes a ten-minute coffee break mid-morning. Do we deduct that?,Physical work state,,
-spur:confidentiality,spurious,answer,Does my agency temp need a confidentiality agreement in place before I give her access to customer data?,Engagement model,,
-part:os:notifications,partial-coverage,answer,I'm drowning in notification emails about my external workers. How do I cut them down?,Operational system,Beeline,
-part:os:delegate,partial-coverage,answer,I'm on leave for two weeks. How do I make sure my external workers' approvals don't stall?,Operational system,Beeline,
-part:os:export,partial-coverage,answer,Can I get the list of my active external workers and their end dates as a spreadsheet?,Operational system,Beeline,
-part:em:convert,partial-coverage,answer,One of my external workers is clearly the right long-term hire. How do we bring them on as an employee?,Engagement model,Contingent worker,
-part:em:background,partial-coverage,answer,Who arranges the background check for my new external worker?,Engagement model,Contingent worker,
-false:agency-switch,false-premise,correct,How do I move my temp to a different agency mid-assignment? The new agency has better terms.,,,
-false:comp-time,false-premise,correct,My temp did 46 hours last week. Rather than pay overtime I'll give him Friday afternoon off. How do I record that?,,,
-false:hourly-ic,false-premise,correct,I've found a freelancer I'd like to pay by the hour to work on my team full time under my direction. How do I set that up?,,,
-false:appraisal,false-premise,correct,It's review season. Where do I find the formal performance review template for my contingent worker?,,,
-false:agency-invoice,false-premise,correct,The agency's invoice for last week has come in. Where do I approve it?,,,
-false:rehire-gap,false-premise,correct,An engineer left us three weeks ago and I'd like to bring her back as a contractor starting Monday. What's the process?,,,
-false:promise-job,false-premise,correct,I've told my temp we'll hire her permanently in the spring. How do I start the paperwork?,,,
-false:direct-agency,false-premise,correct,I've been talking directly to a staffing agency about a candidate they have. How do I get him into Beeline?,,,
-false:gift-card,false-premise,correct,I want to give my temp a $___ Amazon gift card for a great quarter. How do I expense it?,,,
-false:travel-account,false-premise,correct,How do I add my contractor to our corporate travel account so she can book her own flights for the client visit?,,,
-false:relocate-abroad,false-premise,correct,My temp is moving to Lisbon for six months and will keep working remotely from there. How do I update her location on the assignment?,,,
-false:negotiate-rate,false-premise,correct,The agency's bill rate for my temp is above market. How do I negotiate it down with them?,,,
-false:relative,false-premise,correct,My brother-in-law would be perfect for a temp role on my team. How do I request him specifically?,,,
-false:handshake,false-premise,correct,My contractor is starting Monday on a handshake while the SOW finishes approval. What do I need to sort out this week?,,,
-false:fmla,false-premise,correct,How do I file the FMLA paperwork for my temp who needs medical leave?,,,
-false:investigate,false-premise,correct,I've started interviewing the team about a harassment complaint one of our contractors raised. What should I ask next?,,,
-false:take-home,false-premise,correct,Where in Beeline can I see what my temp actually takes home per hour?,,,
-oos:far:1,out-of-scope,decline,What colour is my hair?,,,
-oos:far:2,out-of-scope,decline,What's the WiFi password for the Dublin office?,,,
-oos:far:3,out-of-scope,decline,Can you book a table for six for the team lunch tomorrow?,,,
-oos:far:4,out-of-scope,decline,What time does the building open on Saturdays?,,,
-oos:near:1,out-of-scope,decline,Which staffing agencies are we approved to use?,,,
-oos:near:2,out-of-scope,decline,How much notice does a permanent employee have to give when they resign?,,,
-oos:near:3,out-of-scope,decline,What's the salary band for a senior engineer?,,,
-oos:near:4,out-of-scope,decline,How do I claim my own expenses from last week's conference?,,,
-oos:near:5,out-of-scope,decline,What's our parental leave policy for employees?,,,
-oos:near:6,out-of-scope,decline,Where do I find the company holiday calendar?,,,
-gap:pws:or,missing-coverage,decline,We're placing a temp in Oregon next month. What meal and rest breaks does she get?,Physical work state,Another state,
-gap:pws:ga,missing-coverage,decline,One of my temps is moving from Texas to Georgia. Do the break rules change?,Physical work state,Another state,
-gap:pws:az,missing-coverage,decline,What's the daily overtime threshold for a temp working in Arizona?,Physical work state,Another state,
-gap:pws:ny,missing-coverage,decline,Does my temp in New York get paid sick leave through us?,Physical work state,Another state,
-gap:os:notifications,missing-coverage,decline,How do I change which notifications BambooHR sends me about my external workers?,Operational system,BambooHR,
-gap:em:convert-sow,missing-coverage,decline,How do I convert a contractor to an employee? Is there a fee like with agency workers?,Engagement model,Contractor / SOW supplier,
-gap:em:background-ic,missing-coverage,decline,Who runs the background check on an independent contractor before she gets access to customer data?,Engagement model,Contractor / SOW supplier,
+"id","case","expected","query","entity","value","alternatives"
+"amb:em:classify:1","ambiguous","ask","We're short-handed for the next four months and I want to bring in an outside person to help the team. What do I need to do to get someone in?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:classify:2","ambiguous","ask","I have budget approved for extra help on the data platform this year. Before I raise anything, what should I be thinking about so we set the person up the right way?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:initiate:1","ambiguous","ask","Someone external is starting with us next month and I'm ready to raise the request. Which form do I fill in and what does it need to contain?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:initiate:2","ambiguous","ask","I have someone external lined up to start in three weeks. What approvals do I need in place before then?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:change:1","ambiguous","ask","My external worker's end date is coming up in three weeks and I'd like to keep them on until the end of the year. What do I need to do?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:change:2","ambiguous","ask","The scope of what my external worker is doing has grown quite a bit since we started. Do I need to change anything officially?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:pws:wagehour:1","ambiguous","ask","What meal and rest breaks do I need to build into my temp's shifts?","Physical work state","","California | Colorado | Illinois | Texas | Another state"
+"amb:pws:wagehour:2","ambiguous","ask","My temp is on ten-hour shifts four days a week. Does that trigger overtime?","Physical work state","","California | Colorado | Illinois | Texas | Another state"
+"amb:pws:wagehour:3","ambiguous","ask","If my temp skips lunch because we're slammed, do I owe them anything extra?","Physical work state","","California | Colorado | Illinois | Texas | Another state"
+"amb:rk:route:1","ambiguous","ask","I need to look up one of my external workers' records. Where do I go?","Record kind","","Transaction or supplier-operation record | People identity or organization record"
+"amb:wlm:travel:1","ambiguous","ask","One of my external workers will be in Portugal for two weeks next month and there is work to be done while she's there. What do we need to arrange?","Work location mode","","Short international business travel | Ongoing or worker-chosen work outside the United States"
+"amb:wlm:travel:2","ambiguous","ask","My temp needs to be at a client site for a few days for the go-live. How do we handle the travel side?","Work location mode","","Work within the United States | Short international business travel"
+"amb:os:route:1","ambiguous","ask","Where can I check when my external worker's assignment is due to end?","Operational system","","Beeline | BambooHR"
+"amb:os:route:2","ambiguous","ask","One of my external workers isn't showing up when I search for her. Who do I contact to get that fixed?","Operational system","","Beeline | BambooHR"
+"amb:os:change:1","ambiguous","ask","My worker's end date is wrong. How do I get it corrected?","Operational system","","Beeline | BambooHR"
+"amb:os:change:2","ambiguous","ask","I've taken over a team and the manager on my external workers' records still shows my predecessor. How do I fix that?","Operational system","","Beeline | BambooHR"
+"amb:os:onboard:1","ambiguous","ask","My new external worker starts Monday and IT says they have nothing to work from. What's missing?","Operational system","","Beeline | BambooHR"
+"amb:os:end:1","ambiguous","ask","My worker finished early last week but their account is still live. What did I miss?","Operational system","","Beeline | BambooHR"
+"amb:em:payments:1","ambiguous","ask","My external worker's payment for last week is waiting on me. What exactly am I approving, and by when?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:onboard:1","ambiguous","ask","My new external worker starts a week from Monday. What has to be sorted before then?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:screening:1","ambiguous","ask","Who is responsible for checking my new external worker's right to work?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:travel:1","ambiguous","ask","My external worker paid for a hotel on a work trip. How does she get reimbursed?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:flexible:1","ambiguous","ask","My external worker asked whether she could be at home two days a week instead of on site. Can I just agree to that?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:leave:1","ambiguous","ask","My external worker asked for two weeks off next month for a family situation. What do I do?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:wagehour:1","ambiguous","ask","My external worker put in about 50 hours last week. What do I owe for the extra ten?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"amb:em:end:1","ambiguous","ask","How much notice do I need to give to end my external worker's engagement early?","Engagement model","","Contingent worker | Contractor / SOW supplier"
+"near:contractor:1","near-miss","ask","My contractor's hours from last week look wrong. How do I get them corrected?","contractor","","an agency temp | a supplier delivering under a Statement of Work | a self-employed individual"
+"near:contractor:2","near-miss","ask","I want to bring back a contractor who worked with us last year. Do we need to redo any checks?","contractor","","an agency temp | a supplier delivering under a Statement of Work | a self-employed individual"
+"near:end-the-contract:1","near-miss","ask","I need to end the contract with one of my external workers as of the 30th. What are the steps?","end the contract","","ending an agency-managed assignment | closing a deliverable-based supplier engagement"
+"near:end-the-contract:2","near-miss","ask","Things aren't working out with someone on my team from outside the company and I want to end the contract early. How do I go about it?","end the contract","","ending an agency-managed assignment | closing a deliverable-based supplier engagement"
+"near:rate:1","near-miss","ask","The rate for my external worker seems off compared with what we discussed. Who do I raise it with?","rate","","the agency bill rate | worker pay | fixed fee | capped time and materials"
+"near:rate:2","near-miss","ask","Can we change the rate part-way through the engagement?","rate","","the agency bill rate | worker pay | fixed fee | capped time and materials"
+"near:work-from-abroad:1","near-miss","ask","My temp is going to be working from Canada for two weeks in July. Is there anything I need to set up?","work from abroad","","the worker choosing to work abroad | Helvia sending them on a short business trip"
+"near:work-from-abroad:2","near-miss","ask","One of my external workers asked what the rules are for working from abroad. What do I tell them?","work from abroad","","the worker choosing to work abroad | Helvia sending them on a short business trip"
+"near:the-system:1","near-miss","ask","I can't see my new worker in the system yet. Is something wrong?","the system","","Beeline | BambooHR"
+"near:the-system:2","near-miss","ask","Who do I ask to fix a wrong entry in the system for one of my workers?","the system","","Beeline | BambooHR"
+"spec:em:classify:cw","specific","answer","We need two extra support agents from an agency for the holiday season, working our hours on our systems. What's the first step?","Engagement model","Contingent worker",""
+"spec:em:classify:sow","specific","answer","We want a freelance designer to deliver a brand refresh by a fixed date for a fixed price. Which route is that, and what's involved?","Engagement model","Contractor / SOW supplier",""
+"spec:em:initiate:cw","specific","answer","I'm about to put in a request for a temp from one of our agencies to cover parental leave. What do I need to have ready?","Engagement model","Contingent worker",""
+"spec:em:initiate:sow","specific","answer","I've got a contractor company lined up for the website build. What do I need to raise, and who approves it?","Engagement model","Contractor / SOW supplier",""
+"spec:em:change:cw","specific","answer","My agency temp's assignment ends in a month and I'd like to extend her to year end. How do I do that?","Engagement model","Contingent worker",""
+"spec:em:change:sow","specific","answer","My contractor needs another six weeks to finish the migration. What do I need to change on the SOW?","Engagement model","Contractor / SOW supplier",""
+"spec:pws:wagehour:ca","specific","answer","My temp in California is doing four ten-hour days. Does that mean overtime?","Physical work state","California",""
+"spec:pws:wagehour:co","specific","answer","What rest breaks does my contingent worker in Colorado need on an eight-hour shift?","Physical work state","Colorado",""
+"spec:pws:wagehour:il","specific","answer","My temp works from home in Illinois on eight-hour shifts. What meal break is she entitled to?","Physical work state","Illinois",""
+"spec:pws:wagehour:tx","specific","answer","Do I need to schedule meal breaks for my temp in Texas?","Physical work state","Texas",""
+"spec:rk:route:transaction","specific","answer","Where do I see the spend so far against one of my assignments?","Record kind","Transaction or supplier-operation record",""
+"spec:rk:route:people","specific","answer","Where do I look up which agency one of my external workers is with, and who their hiring manager is?","Record kind","People identity or organization record",""
+"spec:wlm:travel:domestic","specific","answer","My temp needs to fly to our Austin site for a week to onboard the new team. How does she book and expense it?","Work location mode","Work within the United States",""
+"spec:wlm:flexible:abroad","specific","answer","My contractor has told me he's relocating to Mexico next month and plans to carry on the engagement from there. Is that okay?","Work location mode","Ongoing or worker-chosen work outside the United States",""
+"spec:wlm:travel:trip","specific","answer","We need to send our agency temp to the Toronto office for a five-day workshop. What do we need to arrange?","Work location mode","Short international business travel",""
+"spec:os:route:beeline","specific","answer","How do I get into Beeline? I've never used it.","Operational system","Beeline",""
+"spec:os:route:bamboohr","specific","answer","What information about my external workers can I see in BambooHR?","Operational system","BambooHR",""
+"spec:os:onboard:beeline","specific","answer","The agency hasn't confirmed my new temp's assignment in Beeline yet. What does that hold up?","Operational system","Beeline",""
+"spec:os:onboard:bamboohr","specific","answer","HR says my new contractor's BambooHR record is created. What happens next for accounts and equipment?","Operational system","BambooHR",""
+"spec:os:change:beeline","specific","answer","I need to change the cost centre on my temp's assignment in Beeline. How, and do I need to tell anyone?","Operational system","Beeline",""
+"spec:os:change:bamboohr","specific","answer","My worker's BambooHR record shows the wrong end date. How do I get it fixed?","Operational system","BambooHR",""
+"spec:os:end:beeline","specific","answer","My temp's assignment ended yesterday. What do I need to do in Beeline?","Operational system","Beeline",""
+"spec:os:end:bamboohr","specific","answer","My contractor's engagement closed in Beeline last week but his account is still active. Is that a BambooHR thing?","Operational system","BambooHR",""
+"spec:em:payments:cw","specific","answer","How do I approve my agency temp's timesheet, and what's the deadline?","Engagement model","Contingent worker",""
+"spec:em:end:sow","specific","answer","What notice do I owe a contractor if we end the engagement early?","Engagement model","Contractor / SOW supplier",""
+"spec:em:wagehour:sow","specific","answer","My contractor billed 50 hours last week on a capped T&M SOW. Is there overtime on top?","Engagement model","Contractor / SOW supplier",""
+"spec:em:leave:cw","specific","answer","My agency temp asked for a week of leave next month. What's my role?","Engagement model","Contingent worker",""
+"spec:verify:terms","specific","answer","What does the handbook mean by an 'engagement' as opposed to an 'assignment'?","","",""
+"spec:verify:audience","specific","answer","Who is this external workforce handbook written for, and when was it last updated?","","",""
+"spec:review:checkin","specific","answer","What should I cover in the 30-day check-in with my temp?","","",""
+"spec:review:late","specific","answer","My contractor's deliverable is late and not up to standard. How do I handle that?","","",""
+"spec:rehire:ok","specific","answer","A former colleague who left us eight months ago wants to come back as a contractor doing different work. Anything to check first?","","",""
+"spec:concern:threat","specific","answer","One of my temps just told me a colleague threatened him. What do I do right now?","","",""
+"spec:protect:repo","specific","answer","My contractor wants to work in her own GitHub organisation and hand the code over at the end. Is that okay?","","",""
+"spur:abroad-track","spurious","answer","Can my contractor log in from Italy during her holiday, given she isn't an agency worker?","Engagement model","",""
+"spur:ip","spurious","answer","Who owns the code my freelance developer writes for us?","Engagement model","",""
+"spur:card","spurious","answer","Can I give my agency temp a Helvia credit card for the conference trip?","Engagement model","",""
+"spur:visa","spurious","answer","Does it matter whether a candidate comes through an agency or as a contractor when it comes to visa sponsorship?","Engagement model","",""
+"spur:ada","spurious","answer","Is a temp from an agency covered by disability accommodation rules while she's with us?","Engagement model","",""
+"spur:harass","spurious","answer","A contractor on my team says one of our employees has been making inappropriate comments. Since she isn't our employee, is this ours to deal with?","Engagement model","",""
+"spur:threshold","spurious","answer","Is the approval threshold different for an SOW than for a worker request?","Engagement model","",""
+"spur:cards","spurious","answer","Can my contractor get Helvia business cards for client meetings?","Engagement model","",""
+"spur:safety","spurious","answer","My contractor will be on the workshop floor from next week. Does she have to do the site safety training like everyone else?","Engagement model","",""
+"spur:allhands","spurious","answer","Can my agency temp sit in on the all-hands where we present quarterly results?","Engagement model","",""
+"spur:directory","spurious","answer","Should my contractor show up as external in our directory and chat tools?","Engagement model","",""
+"spur:short-break","spurious","answer","My temp in Texas takes a ten-minute coffee break mid-morning. Do we deduct that?","Physical work state","",""
+"spur:confidentiality","spurious","answer","Does my agency temp need a confidentiality agreement in place before I give her access to customer data?","Engagement model","",""
+"part:os:notifications","partial-coverage","answer","I'm drowning in notification emails about my external workers. How do I cut them down?","Operational system","Beeline",""
+"part:os:delegate","partial-coverage","answer","I'm on leave for two weeks. How do I make sure my external workers' approvals don't stall?","Operational system","Beeline",""
+"part:os:export","partial-coverage","answer","Can I get the list of my active external workers and their end dates as a spreadsheet?","Operational system","Beeline",""
+"part:em:convert","partial-coverage","answer","One of my external workers is clearly the right long-term hire. How do we bring them on as an employee?","Engagement model","Contingent worker",""
+"part:em:background","partial-coverage","answer","Who arranges the background check for my new external worker?","Engagement model","Contingent worker",""
+"false:agency-switch","false-premise","correct","How do I move my temp to a different agency mid-assignment? The new agency has better terms.","","",""
+"false:comp-time","false-premise","correct","My temp did 46 hours last week. Rather than pay overtime I'll give him Friday afternoon off. How do I record that?","","",""
+"false:hourly-ic","false-premise","correct","I've found a freelancer I'd like to pay by the hour to work on my team full time under my direction. How do I set that up?","","",""
+"false:appraisal","false-premise","correct","It's review season. Where do I find the formal performance review template for my contingent worker?","","",""
+"false:agency-invoice","false-premise","correct","The agency's invoice for last week has come in. Where do I approve it?","","",""
+"false:rehire-gap","false-premise","correct","An engineer left us three weeks ago and I'd like to bring her back as a contractor starting Monday. What's the process?","","",""
+"false:promise-job","false-premise","correct","I've told my temp we'll hire her permanently in the spring. How do I start the paperwork?","","",""
+"false:direct-agency","false-premise","correct","I've been talking directly to a staffing agency about a candidate they have. How do I get him into Beeline?","","",""
+"false:gift-card","false-premise","correct","I want to give my temp a $___ Amazon gift card for a great quarter. How do I expense it?","","",""
+"false:travel-account","false-premise","correct","How do I add my contractor to our corporate travel account so she can book her own flights for the client visit?","","",""
+"false:relocate-abroad","false-premise","correct","My temp is moving to Lisbon for six months and will keep working remotely from there. How do I update her location on the assignment?","","",""
+"false:negotiate-rate","false-premise","correct","The agency's bill rate for my temp is above market. How do I negotiate it down with them?","","",""
+"false:relative","false-premise","correct","My brother-in-law would be perfect for a temp role on my team. How do I request him specifically?","","",""
+"false:handshake","false-premise","correct","My contractor is starting Monday on a handshake while the SOW finishes approval. What do I need to sort out this week?","","",""
+"false:fmla","false-premise","correct","How do I file the FMLA paperwork for my temp who needs medical leave?","","",""
+"false:investigate","false-premise","correct","I've started interviewing the team about a harassment complaint one of our contractors raised. What should I ask next?","","",""
+"false:take-home","false-premise","correct","Where in Beeline can I see what my temp actually takes home per hour?","","",""
+"oos:far:1","out-of-scope","decline","What colour is my hair?","","",""
+"oos:far:2","out-of-scope","decline","What's the WiFi password for the Dublin office?","","",""
+"oos:far:3","out-of-scope","decline","Can you book a table for six for the team lunch tomorrow?","","",""
+"oos:far:4","out-of-scope","decline","What time does the building open on Saturdays?","","",""
+"oos:near:1","out-of-scope","decline","Which staffing agencies are we approved to use?","","",""
+"oos:near:2","out-of-scope","decline","How much notice does a permanent employee have to give when they resign?","","",""
+"oos:near:3","out-of-scope","decline","What's the salary band for a senior engineer?","","",""
+"oos:near:4","out-of-scope","decline","How do I claim my own expenses from last week's conference?","","",""
+"oos:near:5","out-of-scope","decline","What's our parental leave policy for employees?","","",""
+"oos:near:6","out-of-scope","decline","Where do I find the company holiday calendar?","","",""
+"gap:pws:or","missing-coverage","decline","We're placing a temp in Oregon next month. What meal and rest breaks does she get?","Physical work state","Another state",""
+"gap:pws:ga","missing-coverage","decline","One of my temps is moving from Texas to Georgia. Do the break rules change?","Physical work state","Another state",""
+"gap:pws:az","missing-coverage","decline","What's the daily overtime threshold for a temp working in Arizona?","Physical work state","Another state",""
+"gap:pws:ny","missing-coverage","decline","Does my temp in New York get paid sick leave through us?","Physical work state","Another state",""
+"gap:os:notifications","missing-coverage","decline","How do I change which notifications BambooHR sends me about my external workers?","Operational system","BambooHR",""
+"gap:em:convert-sow","missing-coverage","decline","How do I convert a contractor to an employee? Is there a fee like with agency workers?","Engagement model","Contractor / SOW supplier",""
+"gap:em:background-ic","missing-coverage","decline","Who runs the background check on an independent contractor before she gets access to customer data?","Engagement model","Contractor / SOW supplier",""
