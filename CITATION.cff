@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite the paper under 'preferred-citation'."
+type: dataset
+title: "Playbook-RAG evaluation data"
+abstract: >-
+  The evaluation test set and the anonymized source documents it was written
+  from, released with the Playbook-RAG system demonstration: nine HR handbook
+  documents on external workers, 122 evaluation queries with gold labels, and
+  the knowledge map built from them.
+authors:
+  - family-names: Aversa
+    given-names: Davide
+    affiliation: "Helvia Technologies PCC"
+  - family-names: Loukas
+    given-names: Lefteris
+    affiliation: "Helvia Technologies PCC"
+  - family-names: Papadoudis
+    given-names: Stratos
+    affiliation: "Helvia Technologies PCC"
+  - family-names: Vassos
+    given-names: Stavros
+    affiliation: "Helvia Technologies PCC"
+license: CC-BY-4.0
+repository-code: "https://github.com/Helvia/Playbook-RAG"
+url: "https://knowledge-explorer.app.helvia.ai/"
+date-released: "2026-09-23"
+keywords:
+  - retrieval-augmented generation
+  - ambiguous queries
+  - clarification questions
+  - knowledge map
+  - enterprise knowledge bases
+  - human-in-the-loop
+  - interpretability
+  - LLM agents
+preferred-citation:
+  type: unpublished
+  title: "Ask, Don't Guess: A Human-Readable Playbook-RAG Method for Enterprise Knowledge Bases"
+  authors:
+    - family-names: Aversa
+      given-names: Davide
+      affiliation: "Helvia Technologies PCC"
+    - family-names: Loukas
+      given-names: Lefteris
+      affiliation: "Helvia Technologies PCC"
+    - family-names: Papadoudis
+      given-names: Stratos
+      affiliation: "Helvia Technologies PCC"
+    - family-names: Vassos
+      given-names: Stavros
+      affiliation: "Helvia Technologies PCC"
+  year: 2026
+  url: "https://github.com/Helvia/Playbook-RAG"
+  notes: "Under review at EACL 2027, System Demonstrations."

@@ -2,6 +2,10 @@
 
 Data released with the Playbook-RAG system demonstration (under review, EACL 2027, System Demonstrations). The evaluation test set and the anonymized source documents it was written from.
 
+The system itself is Knowledge Explorer, where domain owners build the map from a document repository, edit its fields, and trace replies back to the playbook and source articles that produced them: [knowledge-explorer.app.helvia.ai](https://knowledge-explorer.app.helvia.ai/).
+
+The demonstration video submitted with the paper walks through that in two minutes: [knowledge-explorer-app.mp4](https://drive.google.com/file/d/1v6OSEpB6cv6lg4UpJ2VOXOwZWb7Arupe/view?usp=sharing) (2:01, 1080p, captioned, 24 MB).
+
 ## Contents
 
 - `data/documents/`: the nine source documents of the knowledge base: an HR handbook on external workers (contingent workers and contractors), anonymized. The knowledge base the paper evaluates on is these documents cut into 54 articles.
